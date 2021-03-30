@@ -1,0 +1,1255 @@
+{
+    "categories" : [
+        {
+            "id": 1,
+            "title": "Website",
+            "key": "website",
+            "modules": [
+                {
+                    "id": 4,
+                    "title": "Static Website",
+                    "key": "static-website"
+                },
+                {
+                    "id": 5,
+                    "title": "Dynamic Webiste",
+                    "key": "dynamic-website"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Mobile App",
+            "key": "mobile-app",
+            "modules": [
+                {
+                    "id": 6,
+                    "title": "Simple Android App",
+                    "key": "simple-android-app"
+                },
+                {
+                    "id": 7,
+                    "title": "Complex Android App",
+                    "key": "complex-android-app"
+                },
+                {
+                    "id": 8,
+                    "title": "Hybrid App",
+                    "key": "hybrid-app"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Problem Solving",
+            "key": "problem-solving",
+            "modules": [
+                {
+                    "id": 9,
+                    "title": "Getting Started",
+                    "key": "getting-started"
+                },
+                {
+                    "id": 10,
+                    "title": "Intermediate",
+                    "key": "intermediate"
+                }
+            ]
+        }
+    ],
+    "modules": [
+        {
+            "id": 100,
+            "key": "static-website",
+            "title": "Static Website",
+            "category": null,
+            "description": "Get to know about how to create a simple static website that shows your content in the browser",
+            "popularity": null,
+            "stableVersion": null,
+            "subModules": [],
+            "download": [
+                {
+                    "title": "Good Browser (suggestion: Google Chrome)",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Knowledge about browser",
+                    "url": ""
+                },
+                {
+                    "title": "Structure of website",
+                    "url": ""
+                },
+                {
+                    "title": "HTML and CSS",
+                    "url": ""
+                },
+                {
+                    "title": "JavaScript",
+                    "url": ""
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://www.w3schools.com", "https://www.techwalla.com/articles/how-to-make-a-static-web-page"],
+                "youtube": ["https://www.youtube.com/watch?v=PlxWf493en4"],
+                "udemy": ["https://www.udemy.com/course/html-and-css-for-beginners-crash-course-learn-fast-easy/"]
+            },
+            "steps": [
+                {
+                    "title": "What is internet?",
+                    "url": ""
+                },
+                {
+                    "title": "How browsers work?",
+                    "url": ""
+                },
+                {
+                    "title": "Learn HTML Tags",
+                    "url": ""
+                },
+                {
+                    "title": "Learn CSS",
+                    "url": ""
+                },
+                {
+                    "title": "Learn javascript",
+                    "url": ""
+                },
+                {
+                    "title": "Try creating a simple website",
+                    "url": ""
+                },
+                {
+                    "title": "Test with different browsers",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "id": 101,
+            "key": "dynamic-website",
+            "title": "Dynamic Website",
+            "category": null,
+            "description": "Know how to develop dynamic websites to change your content in the browser",
+            "popularity": "Demand in 2021",
+            "stableVersion": null,
+            "subModules": [
+                {
+                    "title": "Front End",
+                    "key": "front-end"
+                },
+                {
+                    "title": "Server Side",
+                    "key": "server-side"
+                }
+            ],
+            "download": [
+                {
+                    "title": "Good Browser (suggestion: Google Chrome)",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Static Website",
+                    "url": null,
+                    "key": "static-website"
+                },
+                {
+                    "title": "Advanced JavaScript",
+                    "url": ""
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://www.geeksforgeeks.org/static-vs-dynamic-website/", "https://wpamelia.com/static-vs-dynamic-website/"],
+                "youtube": ["https://www.youtube.com/watch?v=_wFJj94kSTU", "https://www.youtube.com/watch?v=M_FWHUceu0o"],
+                "udemy": ["https://www.udemy.com/course/create-a-dynamic-user-registration-form-from-scratch/", "https://www.udemy.com/course/jquery-ajax/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Static Website Module",
+                    "url": "",
+                    "key": "static-website"
+                },
+                {
+                    "title": "Learn Javscript",
+                    "url": "",
+                    "key": "javascript"
+                },
+                {
+                    "title": "Learn Client-Server Architecture",
+                    "url": ""
+                },
+                {
+                    "title": "Learn how APIs work",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "id": 103,
+            "key": "front-end",
+            "title": "Front End of a website",
+            "category": 5,
+            "description": "Start to learn what is front-end and how to develop it",
+            "popularity": "High Demand in 2021",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "Good Browser (suggestion: Google Chrome)",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Static Website",
+                    "url": null,
+                    "key": "static-website"
+                },
+                {
+                    "title": "Dynamic Website",
+                    "url": "",
+                    "key": "dynamic-website"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://www.w3schools.com/whatis/", "https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html"],
+                "youtube": ["https://www.youtube.com/watch?v=QA0XpGhiz5w", "https://www.youtube.com/watch?v=gFKsEab2-iA"],
+                "udemy": ["https://www.udemy.com/course/learn-front-end-basics-by-making-a-personal-website/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Dynamic Website Module",
+                    "url": null,
+                    "key": "dynamic-website"
+                },
+                {
+                    "title": "Learn how apis work",
+                    "url": ""
+                },
+                {
+                    "title": "Learn UI and UX",
+                    "url": ""
+                },
+                {
+                    "title": "Learn JavaScript frameworks",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "id": 104,
+            "key": "scripting-languages",
+            "title": "Scripting Languages",
+            "category": 3,
+            "description": "Know about scripting languages and how they differ from others",
+            "popularity": null,
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "An IDE (suggestion: VS Code)",
+                    "url" : ""
+                },
+                {
+                    "title": "Good Browser (suggestion: Google Chrome)",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of programming",
+                    "url": null,
+                    "key": "basics-programming"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://www.geeksforgeeks.org/introduction-to-scripting-languages/", "https://www.geeksforgeeks.org/whats-the-difference-between-scripting-and-programming-languages/", "https://careerkarma.com/blog/what-is-a-scripting-language/"],
+                "youtube": ["https://www.youtube.com/watch?v=V6r_KRA9BIw"],
+                "udemy": []
+            },
+            "steps": [
+                {
+                    "title": "Complete Basics of programming Module",
+                    "url": null,
+                    "key": "basics-programming"
+                }
+            ]
+        },
+        {
+            "id": 105,
+            "key": "basics-programming",
+            "title": "Basics of programming",
+            "category": 3,
+            "description": "Know about programming in general how they work",
+            "popularity": "Must needed in 2021",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "An IDE (suggestion: Code Blocks)",
+                    "url" : ""
+                },
+                {
+                    "title": "A Compiler (suggestion: C)",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "How programming language communicate to processor",
+                    "url": null
+                },
+                {
+                    "title": "High level and Binary Language",
+                    "url": null
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://hackr.io/blog/what-is-programming", "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/"],
+                "youtube": ["https://www.youtube.com/watch?v=zOjov-2OZ0E"],
+                "udemy": ["https://www.udemy.com/course/understandingc/"]
+            },
+            "steps": [
+                {
+                    "title": "Learn how computer instructions work",
+                    "url": null
+                },
+                {
+                    "title": "Choose any one programming language you are comfortable with",
+                    "url": null
+                },
+                {
+                    "title": "Learn basics of that language",
+                    "url": null
+                },
+                {
+                    "title": "Learn its syntax",
+                    "url": null
+                },
+                {
+                    "title": "Try to solve problems",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "id": 106,
+            "key": "basics-oops",
+            "title": "Basics of Object Oriented Programming",
+            "category": 3,
+            "description": "Learn how object oriented programming in general how they are used",
+            "popularity": "Needed all the time",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "An IDE (suggestion: Code Blocks)",
+                    "url" : ""
+                },
+                {
+                    "title": "A Compiler (suggestion: Java)",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of programming",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Basics of Java",
+                    "url": null,
+                    "key": "java"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://www.javatpoint.com/java-oops-concepts", "https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/"],
+                "youtube": ["https://www.youtube.com/watch?v=SiBw7os-_zI"],
+                "udemy": ["https://www.udemy.com/course/master-object-oriented-programming-concepts/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Basics of programming Module",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Learn Basics of Java",
+                    "url": null,
+                    "key": "java"
+                },
+                {
+                    "title": "Try to implement OOPs concepts in any problem solving",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "id": 107,
+            "key": "java",
+            "title": "Basics of Java",
+            "category": 3,
+            "description": "Learn how java programming language used for development and learn it",
+            "popularity": null,
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "An IDE (suggestion: Code Blocks)",
+                    "url" : ""
+                },
+                {
+                    "title": "A Java Compiler",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of programming",
+                    "url": null,
+                    "key": "basics-programming"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://www.tutorialspoint.com/java/java_basic_syntax.htm", "https://www.javatpoint.com/java-tutorial"],
+                "youtube": ["https://youtu.be/eIrMbAQSU34"],
+                "udemy": ["https://www.udemy.com/course/java-tutorial/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Basics of programming Module",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Try to solve problems using java",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "id": 108,
+            "key": "javascript",
+            "title": "Basics of JavaScript",
+            "category": 3,
+            "description": "Learn how javascript influences the internet world",
+            "popularity": "Must needed in 2021",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "An IDE (suggestion: VS Code)",
+                    "url" : ""
+                },
+                {
+                    "title": "A Good Browser (suggestion: Google Chrome)",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of programming",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Basics of functional programming",
+                    "url": null,
+                    "key": "functional-programming"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://www.w3schools.com/js/DEFAULT.asp", "https://developer.mozilla.org/en-US/docs/Web/JavaScript"],
+                "youtube": ["https://www.youtube.com/watch?v=W6NZfCO5SIk", "https://www.youtube.com/watch?v=PkZNo7MFNFg"],
+                "udemy": ["https://www.udemy.com/course/javascriptfundamentals/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Basics of programming Module",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Complete Basics of functional programming Module",
+                    "url": null,
+                    "key": "functional-programming"
+                },
+                {
+                    "title": "Try to solve problems using javascript",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "id": 109,
+            "key": "functional-programming",
+            "title": "Basics of functional programming",
+            "category": 3,
+            "description": "Learn what is and how to develop using funcitonal programming",
+            "popularity": "Needed in 2021",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "An IDE (suggestion: VS Code)",
+                    "url" : ""
+                },
+                {
+                    "title": "A Good Browser (suggestion: Google Chrome)",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of programming",
+                    "url": null,
+                    "key": "basics-programming"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://www.geeksforgeeks.org/functional-programming-paradigm/", "https://www.freecodecamp.org/news/an-introduction-to-the-basic-principles-of-functional-programming-a2c2a15c84/"],
+                "youtube": ["https://www.youtube.com/watch?v=dAPL7MQGjyM", "https://www.youtube.com/watch?v=VRpHdSFWGPs"],
+                "udemy": ["https://www.udemy.com/course/functional-programming-for-javascript-developers/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Basics of programming Module",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Try to solve problems using functional programming concepts",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "id": 110,
+            "key": "html-css",
+            "title": "HTML and CSS",
+            "category": 1,
+            "description": "Learn how html and css scripts works with the browser and internet",
+            "popularity": "Needed in 2021",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "An IDE (suggestion: VS Code)",
+                    "url" : ""
+                },
+                {
+                    "title": "A Good Browser (suggestion: Google Chrome)",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of scripting languages",
+                    "url": null,
+                    "key": "scripting-languages"
+                },
+                {
+                    "title": "Browser and Internet working",
+                    "url": null
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://www.w3.org/standards/webdesign/htmlcss.html", "https://learn.shayhowe.com/html-css/"],
+                "youtube": ["https://www.youtube.com/watch?v=D-h8L5hgW-w", "https://www.youtube.com/watch?v=mU6anWqZJcc"],
+                "udemy": ["https://www.udemy.com/course/javascriptfundamentals/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Basics of scripting language Module",
+                    "url": null,
+                    "key": "scripting-languages"
+                },
+                {
+                    "title": "Try and work on it",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "id": 111,
+            "key": "react",
+            "title": "React",
+            "category": 1,
+            "description": "Know things about react js a javascript framework",
+            "popularity": "Must Needed in 2021",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "React",
+                    "url": "https://reactjs.org"
+                },
+                {
+                    "title": "NodeJS",
+                    "url": "https://nodejs.org"
+                },
+                {
+                    "title": "An IDE (suggestion: VS Code)",
+                    "url" : ""
+                },
+                {
+                    "title": "A Good Browser (suggestion: Google Chrome)",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of Web App Architecture",
+                    "url": null
+                },
+                {
+                    "title": "Static Website",
+                    "url": null,
+                    "key": "static-website"
+                },
+                {
+                    "title": "Basics of javascript",
+                    "url": null,
+                    "key": "javascript"
+                },
+                {
+                    "title": "Basics of NodeJS and npm",
+                    "url": null,
+                    "key": "nodejs-npm"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://reactjs.org/tutorial/tutorial.html", "https://react-tutorial.app", "https://www.freecodecamp.org/news/react-beginner-handbook/"],
+                "youtube": ["https://www.youtube.com/watch?v=w7ejDZ8SWv8", "https://www.youtube.com/watch?v=Ke90Tje7VS0&t=1s"],
+                "udemy": ["https://www.udemy.com/course/react-tutorial/", "https://www.udemy.com/course/react-basic-in-just-1-hour/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Basics of scripting language Module",
+                    "url": null,
+                    "key": "scripting-languages"
+                },
+                {
+                    "title": "Complete Basics of Javascript language Module",
+                    "url": null,
+                    "key": "javasript"
+                },
+                {
+                    "title": "Complete Basics of nodejs and npm Module",
+                    "url": null,
+                    "key": "nodejs-npm"
+                },
+                {
+                    "title": "Try and work on it",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "id": 112,
+            "key": "simple-android-app",
+            "title": "Simple Android App",
+            "category": 2,
+            "description": "Know things about android application and how to develop one",
+            "popularity": "Must Needed in 2021",
+            "stableVersion": "4.1.2",
+            "download": [
+                {
+                    "title": "Android Studio",
+                    "url": ""
+                },
+                {
+                    "title": "Android SDK",
+                    "url": ""
+                },
+                {
+                    "title": "Java",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of Mobile App Architecture",
+                    "url": null
+                },
+                {
+                    "title": "Basics of Java",
+                    "url": null,
+                    "key": "java"
+                },
+                {
+                    "title": "Basics of OOPS Concept",
+                    "url": null,
+                    "key": "basics-oops"
+                },
+                {
+                    "title": "Basics of xml",
+                    "url": null,
+                    "key": "xml"
+                },
+                {
+                    "title": "Basics of programming",
+                    "url": null,
+                    "key": "basics-programming"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://developer.android.com/docs", "https://www.androidauthority.com/android-studio-tutorial-beginners-637572/"],
+                "youtube": ["https://www.youtube.com/watch?v=roDz8mMvbIg&list=PLknSwrodgQ72X4sKpzf5vT8kY80HKcUSe"],
+                "udemy": ["https://www.udemy.com/course/learn-android-studio-java-from-scratch-the-master-course/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Basics of programming Module",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Complete Basics of Java language Module",
+                    "url": null,
+                    "key": "java"
+                },
+                {
+                    "title": "Complete Basics of xml Module",
+                    "url": null,
+                    "key": "xml"
+                },
+                {
+                    "title": "Try and use android studio IDE",
+                    "url": null
+                },
+                {
+                    "title": "Try and work on a simple app",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "id": 113,
+            "key": "android-app-ui",
+            "title": "Android App UI",
+            "category": 2,
+            "description": "Get to learn how to create or build a user interface for an android application",
+            "popularity": "Must Needed in 2021",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "Android Studio",
+                    "url": ""
+                },
+                {
+                    "title": "Android SDK",
+                    "url": ""
+                },
+                {
+                    "title": "Java",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Simple Android App",
+                    "url": null,
+                    "key": "simple-android-app"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://developer.android.com/docs"],
+                "youtube": [],
+                "udemy": ["https://www.udemy.com/course/learn-android-studio-java-from-scratch-the-master-course/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Simple Android App Module",
+                    "url": null,
+                    "key": "simple-android-app"
+                },
+                {
+                    "title": "Try and work on UI and UX of mobile screens",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "id": 114,
+            "title": "Complex Android App",
+            "key": "complex-android-app",
+            "category": 2,
+            "description": "Get to learn how to create or build a complex android application",
+            "popularity": "Must Needed in 2021",
+            "stableVersion": null,
+            "subModules": [
+                {
+                    "title": "Android App UI",
+                    "key": "android-app-ui"
+                },
+                {
+                    "title": "Server Side",
+                    "key": "server-side"
+                }
+            ],
+            "download": [
+                {
+                    "title": "Android Studio",
+                    "url": ""
+                },
+                {
+                    "title": "Android SDK",
+                    "url": ""
+                },
+                {
+                    "title": "Java",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Simple Android App",
+                    "url": null,
+                    "key": "simple-android-app"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://developer.android.com/docs"],
+                "youtube": ["https://www.youtube.com/watch?v=GVtCt1O2Q1o"],
+                "udemy": ["https://www.udemy.com/course/advanced-android-development/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Simple Android App Module",
+                    "url": null,
+                    "key": "simple-android-app"
+                },
+                {
+                    "title": "Learn Client-Server Architecture",
+                    "url": ""
+                },
+                {
+                    "title": "Try and work on UI and UX of mobile screens",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "id": 115,
+            "title": "Hybrid App",
+            "key": "hybrid-app",
+            "category": 2,
+            "description": "Get to learn how to create or build a hybrid mobile application that supports both android & IOS",
+            "popularity": "Very High Demand in 2021",
+            "stableVersion": null,
+            "subModules": [
+                {
+                    "title": "React Native",
+                    "key": "react-native"
+                },
+                {
+                    "title": "Flutter",
+                    "key": "flutter"
+                }
+            ],
+            "download": [],
+            "knowledge": [
+                {
+                    "title": "Simple Android App",
+                    "url": null,
+                    "key": "simple-android-app"
+                },
+                {
+                    "title": "How hybrid apps work?",
+                    "url": ""
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://www.sitepoint.com/native-vs-hybrid-app-development/", "https://arkenea.com/blog/develop-hybrid-app/"],
+                "youtube": ["https://youtu.be/jE5W89GslX8"],
+                "udemy": []
+            },
+            "steps": [
+                {
+                    "title": "Have an idea on both android & IOS development",
+                    "url": null
+                },
+                {
+                    "title": "Choose a framework to develop",
+                    "url": ""
+                },
+                {
+                    "title": "Try and work on that framework",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "id": 116,
+            "key": "xml",
+            "title": "Basics of XML",
+            "category": 3,
+            "description": "Learn how xml language is used for mobile development and learn it",
+            "popularity": null,
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "An IDE (suggestion: Code Blocks)",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of scripting language",
+                    "url": null,
+                    "key": "scripting-languages"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://www.w3schools.com/xml/xml_whatis.asp", "https://www.tutorialspoint.com/xml/xml_overview.htm"],
+                "youtube": ["https://youtu.be/n-y-YHVZSwk"],
+                "udemy": ["https://www.udemy.com/course/xml-step-by-step-for-beginners/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Basics of scripting language Module",
+                    "url": null,
+                    "key": "scripting-languages"
+                },
+                {
+                    "title": "Try using xml",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "id": 117,
+            "key": "data-structures-algorithms",
+            "title": "Data Structures & Algorithms",
+            "category": 3,
+            "description": "Learn how data structures and algorithms influences the programming world and how to learn it",
+            "popularity": "Must Needed in 2021",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "An IDE (suggestion: Code Blocks)",
+                    "url" : ""
+                },
+                {
+                    "title": "A C or Java Compiler",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of programming",
+                    "url": null,
+                    "key": "basics-programming"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://www.programiz.com/dsa", "https://www.geeksforgeeks.org/data-structures/"],
+                "youtube": ["https://www.youtube.com/watch?v=BBpAmxU_NQo"],
+                "udemy": ["https://www.udemy.com/course/introduction-to-algorithms-and-data-structures-in-c/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Basics of programming Module",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Choose and comfortable language and learn its basics",
+                    "url": null
+                },
+                {
+                    "title": "Get Familiar with all searching and sorting algorithms",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "id": 118,
+            "key": "advanced-algorithms",
+            "title": "Advanced Algorithms",
+            "category": 3,
+            "description": "Learn the super power of problem solving in the development era",
+            "popularity": "Must Needed in 2021",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "An IDE (suggestion: Code Blocks)",
+                    "url" : ""
+                },
+                {
+                    "title": "A C or Java Compiler",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of programming",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Data Structures & Algorithms",
+                    "url": null,
+                    "key": "data-structures-alogrithms"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://www.geeksforgeeks.org/fundamentals-of-algorithms/"],
+                "youtube": ["https://youtu.be/0JUN9aDxVmI"],
+                "udemy": ["https://www.udemy.com/course/advanced-algorithms-in-java/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Basics of programming Module",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Complete Data Structutes & Algorithms Module",
+                    "url": null,
+                    "key": "data-structures-algorithms"
+                }
+            ]
+        },
+        {
+            "id": 119,
+            "key": "dart",
+            "title": "Basics of Dart",
+            "category": 3,
+            "description": "Learn the dart programming language which power the framework called flutter",
+            "popularity": "Needed in 2021",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "An IDE (suggestion: Code Blocks)",
+                    "url" : ""
+                },
+                {
+                    "title": "Dart Compiler",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of programming",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Basics of C++",
+                    "url": null
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://dart.dev", "https://www.tutorialspoint.com/dart_programming/index.htm"],
+                "youtube": ["https://www.youtube.com/watch?v=Ej_Pcr4uC2Q", "https://youtu.be/o_wbmiCux4M"],
+                "udemy": ["https://www.udemy.com/course/dart-programming-tutorial-learn-the-dart-for-flutter/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Basics of programming Module",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Complete Data Structutes & Algorithms Module",
+                    "url": null,
+                    "key": "data-structures-algorithms"
+                },
+                {
+                    "title": "Learn how dart influences flutter?",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "id": 120,
+            "key": "flutter",
+            "title": "Basics of Flutter",
+            "category": 2,
+            "description": "Learn the flutter framework to build hybrid mobile applications",
+            "popularity": "Very Demand in 2021",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "Flutter SDK",
+                    "url" : ""
+                },
+                {
+                    "title": "An IDE (suggestion: VS Code)",
+                    "url" : ""
+                },
+                {
+                    "title": "ADB Driver",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of Mobile App Architecture",
+                    "url": ""
+                },
+                {
+                    "title": "Basics of programming",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Basics of Dart",
+                    "url": null,
+                    "key": "dart"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://flutter.dev", "https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1#0"],
+                "youtube": ["https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ", "https://www.youtube.com/watch?v=pTJJsmejUOQ"],
+                "udemy": ["https://www.udemy.com/course/learn-flutter-beginners-course/", "https://www.udemy.com/course/pre-google-flutter-and-dart-everything-you-need-to-know/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Hybrid App Module",
+                    "url": null,
+                    "key": "hybrid-app"
+                },
+                {
+                    "title": "Complete Basics of dart Module",
+                    "url": null,
+                    "key": "dart"
+                },
+                {
+                    "title": "Learn how flutter works?",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "id": 121,
+            "key": "react-native",
+            "title": "Basics of React Native",
+            "category": 2,
+            "description": "Learn the react native framework to build hybrid mobile applications",
+            "popularity": "Very Demand in 2021",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "React Native",
+                    "url" : ""
+                },
+                {
+                    "title": "An IDE (suggestion: VS Code)",
+                    "url" : ""
+                },
+                {
+                    "title": "NodeJS",
+                    "url" : ""
+                },
+                {
+                    "title": "Good Browser (suggestion: Google Chrome)",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of Mobile App Architecture",
+                    "url": ""
+                },
+                {
+                    "title": "Basics of programming",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Basics of javascript",
+                    "url": null,
+                    "key": "javascript"
+                },
+                {
+                    "title": "Basics of nodejs and npm",
+                    "url": null,
+                    "key": "nodejs-npm"
+                },
+                {
+                    "title": "Basics of react",
+                    "url": null,
+                    "key": "react"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://reactnative.dev", "https://www.simplilearn.com/react-native-tutorial-article"],
+                "youtube": ["https://www.youtube.com/watch?v=0-S5a0eXPoc", "https://www.youtube.com/watch?v=qSRrxpdMpVc"],
+                "udemy": ["https://www.udemy.com/course/react-basic-in-just-1-hour/", "https://www.udemy.com/course/create-a-tiny-app-with-react-native/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete Hybrid App Module",
+                    "url": null,
+                    "key": "hybrid-app"
+                },
+                {
+                    "title": "Complete Basics of Javascript language Module",
+                    "url": null,
+                    "key": "javascript"
+                },
+                {
+                    "title": "Learn nodejs and npm",
+                    "url": "",
+                    "key": "nodejs-npm"
+                },
+                {
+                    "title": "Learn react basics",
+                    "url": "",
+                    "key": "react"
+                }
+            ]
+        },
+        {
+            "id": 122,
+            "key": "nodejs-npm",
+            "title": "Basics of NodeJS and npm",
+            "category": 3,
+            "description": "Learn nodejs and npm modules working and how to work with it",
+            "popularity": "Demand in 2021",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "An IDE (suggestion: VS Code)",
+                    "url" : ""
+                },
+                {
+                    "title": "NodeJS",
+                    "url" : ""
+                },
+                {
+                    "title": "Good Browser (suggestion: Google Chrome)",
+                    "url" : ""
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of programming",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Basics of javascript",
+                    "url": null,
+                    "key": "javascript"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://nodejs.org/en/docs/", "https://www.w3schools.com/nodejs/", "https://nodejs.dev/learn"],
+                "youtube": ["https://www.youtube.com/watch?v=TlB_eWDSMt4", "https://www.youtube.com/watch?v=fBNz5xF-Kx4", "https://www.youtube.com/watch?v=RLtyhwFtXQA"],
+                "udemy": ["https://www.udemy.com/course/node-js-api-tutorial/", "https://www.udemy.com/course/intro-to-node-js-express/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete basics of programming module",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Complete Basics of Javascript language Module",
+                    "url": null,
+                    "key": "javascript"
+                }
+            ]
+        }
+    ]
+}

@@ -4,16 +4,19 @@
             "id": 1,
             "title": "Website",
             "key": "website",
+            "description": "become a web developer",
             "modules": [
                 {
                     "id": 4,
                     "title": "Static Website",
-                    "key": "static-website"
+                    "key": "static-website",
+                    "description": "if your are a noobie"
                 },
                 {
                     "id": 5,
                     "title": "Dynamic Webiste",
-                    "key": "dynamic-website"
+                    "key": "dynamic-website",
+                    "description": "if your are ready to challenge"
                 }
             ]
         },
@@ -21,21 +24,25 @@
             "id": 2,
             "title": "Mobile App",
             "key": "mobile-app",
+            "description": "become a mobile app developer",
             "modules": [
                 {
                     "id": 6,
                     "title": "Simple Android App",
-                    "key": "simple-android-app"
+                    "key": "simple-android-app",
+                    "description": "if your not confident enough"
                 },
                 {
                     "id": 7,
                     "title": "Complex Android App",
-                    "key": "complex-android-app"
+                    "key": "complex-android-app",
+                    "description": "get your wheels hot"
                 },
                 {
                     "id": 8,
                     "title": "Hybrid App",
-                    "key": "hybrid-app"
+                    "key": "hybrid-app",
+                    "description": "build the unnatural"
                 }
             ]
         },
@@ -47,12 +54,78 @@
                 {
                     "id": 9,
                     "title": "Getting Started",
-                    "key": "getting-started"
+                    "key": "getting-started",
+                    "description": "it's your first step",
+                    "modules": [
+                        {
+                            "id": 11,
+                            "title": "Basics of Programming",
+                            "key": "basics-programming"
+                        },
+                        {
+                            "id": 12,
+                            "title": "Basics of Functional Programming",
+                            "key": "functional-programming"
+                        },
+                        {
+                            "id": 13,
+                            "title": "Basics of Scripting languages",
+                            "key": "scripting-languages"
+                        },
+                        {
+                            "id": 14,
+                            "title": "Basics of OOPS",
+                            "key": "basics-oops"
+                        },
+                        {
+                            "id": 15,
+                            "title": "HTML and CSS",
+                            "key": "html-css"
+                        },
+                        {
+                            "id": 16,
+                            "title": "Basics of Java",
+                            "key": "java"
+                        }
+                    ]
                 },
                 {
                     "id": 10,
                     "title": "Intermediate",
-                    "key": "intermediate"
+                    "key": "intermediate",
+                    "description": "you are amazing to come here",
+                    "modules": [
+                        {
+                            "id": 17,
+                            "title": "Data Structures & Algorithms",
+                            "key": "data-structures-alogrithms"
+                        },
+                        {
+                            "id": 18,
+                            "title": "Advanced Algorithms",
+                            "key": "advanced-algorithms"
+                        },
+                        {
+                            "id": 19,
+                            "title": "NodeJS & npm",
+                            "key": "nodejs-npm"
+                        },
+                        {
+                            "id": 20,
+                            "title": "Basics of Dart",
+                            "key": "dart"
+                        },
+                        {
+                            "id": 21,
+                            "title": "Basics of JavaScript",
+                            "key": "javascript"
+                        },
+                        {
+                            "id": 13,
+                            "title": "Basics of XML",
+                            "key": "xml"
+                        }
+                    ]
                 }
             ]
         }

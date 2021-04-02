@@ -87,6 +87,11 @@
                             "id": 16,
                             "title": "Basics of Java",
                             "key": "java"
+                        },
+                        {
+                            "id": 17,
+                            "title": "Basics of C",
+                            "key": "c"
                         }
                     ]
                 },
@@ -136,7 +141,7 @@
             "id": 100,
             "key": "static-website",
             "title": "Static Website",
-            "category": null,
+            "category": 1,
             "description": "Get to know about how to create a simple static website that shows your content in the browser",
             "popularity": null,
             "stableVersion": null,
@@ -144,25 +149,27 @@
             "download": [
                 {
                     "title": "Good Browser (suggestion: Google Chrome)",
-                    "url" : ""
+                    "url" : "https://www.google.com/intl/en_in/chrome/"
                 }
             ],
             "knowledge": [
                 {
                     "title": "Knowledge about browser",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=BrXPcaRlBqo"
                 },
                 {
                     "title": "Structure of website",
-                    "url": ""
+                    "url": "https://www.marketing91.com/website-structure/"
                 },
                 {
                     "title": "HTML and CSS",
-                    "url": ""
+                    "url": null,
+                    "key": "html-css"
                 },
                 {
                     "title": "JavaScript",
-                    "url": ""
+                    "url": null,
+                    "key": "javascript"
                 }
             ],
             "tutorials": {
@@ -173,31 +180,33 @@
             "steps": [
                 {
                     "title": "What is internet?",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=TNQsmPf24go"
                 },
                 {
                     "title": "How browsers work?",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=WjDrMKZWCt0"
                 },
                 {
-                    "title": "Learn HTML Tags",
-                    "url": ""
+                    "title": "Learn HTML Basic Tags",
+                    "url": "https://www.youtube.com/watch?v=bUEykHfMMnc"
                 },
                 {
-                    "title": "Learn CSS",
-                    "url": ""
+                    "title": "Learn CSS Basics",
+                    "url": "https://www.youtube.com/watch?v=6vbgZnQrpbU"
                 },
                 {
                     "title": "Learn javascript",
-                    "url": ""
+                    "url": null,
+                    "key": "javascript"
                 },
                 {
                     "title": "Try creating a simple website",
-                    "url": ""
+                    "url": null,
+                    "key": "static-website"
                 },
                 {
                     "title": "Test with different browsers",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=vs2TYCMCuL8"
                 }
             ]
         },
@@ -222,7 +231,7 @@
             "download": [
                 {
                     "title": "Good Browser (suggestion: Google Chrome)",
-                    "url" : ""
+                    "url" : "https://www.google.com/intl/en_in/chrome/"
                 }
             ],
             "knowledge": [
@@ -232,8 +241,9 @@
                     "key": "static-website"
                 },
                 {
-                    "title": "Advanced JavaScript",
-                    "url": ""
+                    "title": "JavaScript",
+                    "url": null,
+                    "key": "javascript"
                 }
             ],
             "tutorials": {
@@ -244,21 +254,21 @@
             "steps": [
                 {
                     "title": "Complete Static Website Module",
-                    "url": "",
+                    "url": null,
                     "key": "static-website"
                 },
                 {
                     "title": "Learn Javscript",
-                    "url": "",
+                    "url": null,
                     "key": "javascript"
                 },
                 {
                     "title": "Learn Client-Server Architecture",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=L5BlpPU_muY"
                 },
                 {
                     "title": "Learn how APIs work",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=Yzx7ihtCGBs"
                 }
             ]
         },
@@ -273,7 +283,7 @@
             "download": [
                 {
                     "title": "Good Browser (suggestion: Google Chrome)",
-                    "url" : ""
+                    "url" : "https://www.google.com/intl/en_in/chrome/"
                 }
             ],
             "knowledge": [
@@ -301,15 +311,15 @@
                 },
                 {
                     "title": "Learn how apis work",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=Yzx7ihtCGBs"
                 },
                 {
                     "title": "Learn UI and UX",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=TgqeRTwZvIo"
                 },
                 {
                     "title": "Learn JavaScript frameworks",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=W0xaMWenaY0"
                 }
             ]
         },
@@ -324,11 +334,11 @@
             "download": [
                 {
                     "title": "An IDE (suggestion: VS Code)",
-                    "url" : ""
+                    "url" : "https://code.visualstudio.com/download"
                 },
                 {
                     "title": "Good Browser (suggestion: Google Chrome)",
-                    "url" : ""
+                    "url" : "https://www.google.com/intl/en_in/chrome/"
                 }
             ],
             "knowledge": [
@@ -362,21 +372,21 @@
             "download": [
                 {
                     "title": "An IDE (suggestion: Code Blocks)",
-                    "url" : ""
+                    "url" : "https://www.codeblocks.org/downloads/"
                 },
                 {
                     "title": "A Compiler (suggestion: C)",
-                    "url" : ""
+                    "url" : "https://www.codechef.com/ide"
                 }
             ],
             "knowledge": [
                 {
                     "title": "How programming language communicate to processor",
-                    "url": null
+                    "url": "https://www.youtube.com/watch?v=3wuMRPhSNd0"
                 },
                 {
                     "title": "High level and Binary Language",
-                    "url": null
+                    "url": "https://www.youtube.com/watch?v=bUWCD45qniA"
                 }
             ],
             "tutorials": {
@@ -387,7 +397,7 @@
             "steps": [
                 {
                     "title": "Learn how computer instructions work",
-                    "url": null
+                    "url": "https://www.youtube.com/watch?v=3wuMRPhSNd0"
                 },
                 {
                     "title": "Choose any one programming language you are comfortable with",
@@ -403,7 +413,7 @@
                 },
                 {
                     "title": "Try to solve problems",
-                    "url": null
+                    "url": "https://www.hackerrank.com"
                 }
             ]
         },
@@ -418,11 +428,11 @@
             "download": [
                 {
                     "title": "An IDE (suggestion: Code Blocks)",
-                    "url" : ""
+                    "url" : "https://www.codeblocks.org/downloads/"
                 },
                 {
                     "title": "A Compiler (suggestion: Java)",
-                    "url" : ""
+                    "url" : "https://www.codechef.com/ide"
                 }
             ],
             "knowledge": [
@@ -470,11 +480,11 @@
             "download": [
                 {
                     "title": "An IDE (suggestion: Code Blocks)",
-                    "url" : ""
+                    "url" : "https://www.codeblocks.org/downloads/"
                 },
                 {
                     "title": "A Java Compiler",
-                    "url" : ""
+                    "url" : "https://www.codechef.com/ide"
                 }
             ],
             "knowledge": [
@@ -512,11 +522,11 @@
             "download": [
                 {
                     "title": "An IDE (suggestion: VS Code)",
-                    "url" : ""
+                    "url" : "https://code.visualstudio.com/download"
                 },
                 {
                     "title": "A Good Browser (suggestion: Google Chrome)",
-                    "url" : ""
+                    "url" : "https://www.google.com/chrome/"
                 }
             ],
             "knowledge": [
@@ -564,11 +574,11 @@
             "download": [
                 {
                     "title": "An IDE (suggestion: VS Code)",
-                    "url" : ""
+                    "url" : "https://code.visualstudio.com/download"
                 },
                 {
                     "title": "A Good Browser (suggestion: Google Chrome)",
-                    "url" : ""
+                    "url" : "https://www.google.com/chrome/"
                 }
             ],
             "knowledge": [
@@ -606,11 +616,11 @@
             "download": [
                 {
                     "title": "An IDE (suggestion: VS Code)",
-                    "url" : ""
+                    "url" : "https://code.visualstudio.com/download"
                 },
                 {
                     "title": "A Good Browser (suggestion: Google Chrome)",
-                    "url" : ""
+                    "url" : "https://www.google.com/chrome/"
                 }
             ],
             "knowledge": [
@@ -621,7 +631,7 @@
                 },
                 {
                     "title": "Browser and Internet working",
-                    "url": null
+                    "url": "https://www.youtube.com/watch?v=hJHvdBlSxug"
                 }
             ],
             "tutorials": {
@@ -660,17 +670,17 @@
                 },
                 {
                     "title": "An IDE (suggestion: VS Code)",
-                    "url" : ""
+                    "url" : "https://code.visualstudio.com/download"
                 },
                 {
                     "title": "A Good Browser (suggestion: Google Chrome)",
-                    "url" : ""
+                    "url" : "https://www.google.com/chrome/"
                 }
             ],
             "knowledge": [
                 {
                     "title": "Basics of Web App Architecture",
-                    "url": null
+                    "url": "https://www.youtube.com/watch?v=AYHE2m651dY"
                 },
                 {
                     "title": "Static Website",
@@ -726,21 +736,21 @@
             "download": [
                 {
                     "title": "Android Studio",
-                    "url": ""
+                    "url": "https://developer.android.com/studio"
                 },
                 {
                     "title": "Android SDK",
-                    "url": ""
+                    "url": "https://developer.android.com/studio/releases/sdk-tools"
                 },
                 {
                     "title": "Java",
-                    "url" : ""
+                    "url" : "https://www.java.com/download/ie_manual.jsp"
                 }
             ],
             "knowledge": [
                 {
                     "title": "Basics of Mobile App Architecture",
-                    "url": null
+                    "url": "https://www.youtube.com/watch?v=H3Ekg-fkmf0"
                 },
                 {
                     "title": "Basics of Java",
@@ -805,15 +815,15 @@
             "download": [
                 {
                     "title": "Android Studio",
-                    "url": ""
+                    "url": "https://developer.android.com/studio"
                 },
                 {
                     "title": "Android SDK",
-                    "url": ""
+                    "url": "https://developer.android.com/studio/releases/sdk-tools"
                 },
                 {
                     "title": "Java",
-                    "url" : ""
+                    "url" : "https://www.java.com/download/ie_manual.jsp"
                 }
             ],
             "knowledge": [
@@ -861,15 +871,15 @@
             "download": [
                 {
                     "title": "Android Studio",
-                    "url": ""
+                    "url": "https://developer.android.com/studio"
                 },
                 {
                     "title": "Android SDK",
-                    "url": ""
+                    "url": "https://developer.android.com/studio/releases/sdk-tools"
                 },
                 {
                     "title": "Java",
-                    "url" : ""
+                    "url" : "https://www.java.com/download/ie_manual.jsp"
                 }
             ],
             "knowledge": [
@@ -892,7 +902,7 @@
                 },
                 {
                     "title": "Learn Client-Server Architecture",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=L5BlpPU_muY"
                 },
                 {
                     "title": "Try and work on UI and UX of mobile screens",
@@ -927,7 +937,7 @@
                 },
                 {
                     "title": "How hybrid apps work?",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=jE5W89GslX8"
                 }
             ],
             "tutorials": {
@@ -938,11 +948,11 @@
             "steps": [
                 {
                     "title": "Have an idea on both android & IOS development",
-                    "url": null
+                    "url": "https://www.youtube.com/watch?v=jE5W89GslX8"
                 },
                 {
                     "title": "Choose a framework to develop",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=uxZZzmeCoLE"
                 },
                 {
                     "title": "Try and work on that framework",
@@ -961,7 +971,7 @@
             "download": [
                 {
                     "title": "An IDE (suggestion: Code Blocks)",
-                    "url" : ""
+                    "url" : "https://www.codeblocks.org/downloads/"
                 }
             ],
             "knowledge": [
@@ -999,11 +1009,11 @@
             "download": [
                 {
                     "title": "An IDE (suggestion: Code Blocks)",
-                    "url" : ""
+                    "url" : "https://www.codeblocks.org/downloads/"
                 },
                 {
                     "title": "A C or Java Compiler",
-                    "url" : ""
+                    "url" : "https://www.codechef.com/ide"
                 }
             ],
             "knowledge": [
@@ -1045,11 +1055,11 @@
             "download": [
                 {
                     "title": "An IDE (suggestion: Code Blocks)",
-                    "url" : ""
+                    "url" : "https://www.codeblocks.org/downloads/"
                 },
                 {
                     "title": "A C or Java Compiler",
-                    "url" : ""
+                    "url" : "https://www.codechef.com/ide"
                 }
             ],
             "knowledge": [
@@ -1093,11 +1103,11 @@
             "download": [
                 {
                     "title": "An IDE (suggestion: Code Blocks)",
-                    "url" : ""
+                    "url" : "https://www.codeblocks.org/downloads/"
                 },
                 {
                     "title": "Dart Compiler",
-                    "url" : ""
+                    "url" : "https://dartpad.dev"
                 }
             ],
             "knowledge": [
@@ -1108,7 +1118,7 @@
                 },
                 {
                     "title": "Basics of C++",
-                    "url": null
+                    "url": "https://www.youtube.com/watch?v=vLnPwxZdW4Y"
                 }
             ],
             "tutorials": {
@@ -1129,7 +1139,7 @@
                 },
                 {
                     "title": "Learn how dart influences flutter?",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=5F-6n_2XWR8"
                 }
             ]
         },
@@ -1144,21 +1154,21 @@
             "download": [
                 {
                     "title": "Flutter SDK",
-                    "url" : ""
+                    "url" : "https://flutter.dev/docs/get-started/install"
                 },
                 {
                     "title": "An IDE (suggestion: VS Code)",
-                    "url" : ""
+                    "url" : "https://code.visualstudio.com/download"
                 },
                 {
                     "title": "ADB Driver",
-                    "url" : ""
+                    "url" : "https://adb.clockworkmod.com"
                 }
             ],
             "knowledge": [
                 {
                     "title": "Basics of Mobile App Architecture",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=H3Ekg-fkmf0"
                 },
                 {
                     "title": "Basics of programming",
@@ -1189,7 +1199,7 @@
                 },
                 {
                     "title": "Learn how flutter works?",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=I9ceqw5Ny-4"
                 }
             ]
         },
@@ -1204,25 +1214,25 @@
             "download": [
                 {
                     "title": "React Native",
-                    "url" : ""
+                    "url" : "https://reactnative.dev/docs/environment-setup"
                 },
                 {
                     "title": "An IDE (suggestion: VS Code)",
-                    "url" : ""
+                    "url" : "https://code.visualstudio.com/download"
                 },
                 {
                     "title": "NodeJS",
-                    "url" : ""
+                    "url" : "https://nodejs.org/en/download/"
                 },
                 {
                     "title": "Good Browser (suggestion: Google Chrome)",
-                    "url" : ""
+                    "url" : "https://www.google.com/chrome/"
                 }
             ],
             "knowledge": [
                 {
                     "title": "Basics of Mobile App Architecture",
-                    "url": ""
+                    "url": "https://www.youtube.com/watch?v=H3Ekg-fkmf0"
                 },
                 {
                     "title": "Basics of programming",
@@ -1263,12 +1273,12 @@
                 },
                 {
                     "title": "Learn nodejs and npm",
-                    "url": "",
+                    "url": null,
                     "key": "nodejs-npm"
                 },
                 {
                     "title": "Learn react basics",
-                    "url": "",
+                    "url": null,
                     "key": "react"
                 }
             ]
@@ -1284,15 +1294,15 @@
             "download": [
                 {
                     "title": "An IDE (suggestion: VS Code)",
-                    "url" : ""
+                    "url" : "https://code.visualstudio.com/download"
                 },
                 {
                     "title": "NodeJS",
-                    "url" : ""
+                    "url" : "https://nodejs.org/en/download/"
                 },
                 {
                     "title": "Good Browser (suggestion: Google Chrome)",
-                    "url" : ""
+                    "url" : "https://www.google.com/chrome/"
                 }
             ],
             "knowledge": [
@@ -1322,6 +1332,81 @@
                     "title": "Complete Basics of Javascript language Module",
                     "url": null,
                     "key": "javascript"
+                }
+            ]
+        },
+        {
+            "id": 123,
+            "key": "c",
+            "title": "Basics of C",
+            "category": 3,
+            "description": "Learn programming language c and learn how to work with it",
+            "popularity": "Needed in 2021",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "C Compiler",
+                    "url" : "https://www.codechef.com/ide"
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of programming",
+                    "url": null,
+                    "key": "basics-programming"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://www.geeksforgeeks.org/c-language-set-1-introduction/", "https://www.javatpoint.com/c-programming-language-tutorial"],
+                "youtube": ["https://www.youtube.com/watch?v=KJgsSFOSQv0", "https://www.youtube.com/watch?v=8LjPNYOxrVQ", "https://www.youtube.com/watch?v=HV9ba0bNvGQ"],
+                "udemy": ["https://www.udemy.com/course/quickstart-guide-c-programming/", "https://www.udemy.com/course/c-language-interview-questions/"]
+            },
+            "steps": [
+                {
+                    "title": "Complete basics of programming module",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "Learn the basic syntax of c language",
+                    "url": null,
+                    "key": null
+                }
+            ]
+        },
+        {
+            "id": 124,
+            "key": "ui",
+            "title": "User Interface Design",
+            "category": 3,
+            "description": "Xplore about the user interface desinging in the programming world",
+            "popularity": "Must Needed in 2021",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "Good Browser (suggestion: Google Chrome)",
+                    "url" : "https://www.google.com/chrome/"
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "What is an interface",
+                    "url": "https://www.youtube.com/watch?v=2MZEHJG942M"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://uxplanet.org/figma-all-you-need-to-know-156b52b88e54", "https://www.figma.com/resources/learn-design/"],
+                "youtube": ["https://www.youtube.com/watch?v=3q3FV65ZrUs", "https://www.youtube.com/watch?v=sVop0l_yw9Y", "https://www.youtube.com/watch?v=Cx2dkpBxst8"],
+                "udemy": ["https://www.udemy.com/course/fundamentals-of-user-interface-design/", "https://learnux.io/course/figma/intro-to-figma"]
+            },
+            "steps": [
+                {
+                    "title": "Learn what is user interface",
+                    "url": "https://www.youtube.com/watch?v=2MZEHJG942M"
+                },
+                {
+                    "title": "Start trying out designs with figma",
+                    "url": "https://figma.com"
                 }
             ]
         }

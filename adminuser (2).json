@@ -1,0 +1,195 @@
+[{
+  "_id": {
+    "$oid": "61a043b091a38d1d8efa3b1c"
+  },
+  "name": "user1",
+  "password": "admin",
+  "role": {
+    "$oid": "61a03f4f05614df1e4195405"
+  },
+  "isActive": true,
+  "category": "OTHER",
+  "createdAt": "2021-11-26T02:17:20.080Z",
+  "updatedAt": "2021-11-26T02:17:20.080Z",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a1fa40eab48822a10124cb"
+  },
+  "name": "judge1",
+  "password": "judge1",
+  "role": {
+    "$oid": "61a1f8cccfe6bf9c90189297"
+  },
+  "category": "ART",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2021-11-27T09:28:32.077Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-27T09:28:32.077Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a1fa54eab48822a10124cd"
+  },
+  "name": "judge2",
+  "password": "judge2",
+  "role": {
+    "$oid": "61a1f8cccfe6bf9c90189297"
+  },
+  "category": "LITERATURE",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2021-11-27T09:28:52.317Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-27T09:28:52.317Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a1fa62eab48822a10124cf"
+  },
+  "name": "judge3",
+  "password": "judge3",
+  "role": {
+    "$oid": "61a1f8cccfe6bf9c90189297"
+  },
+  "category": "LITERATURE",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2021-11-27T09:29:06.834Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-27T09:29:06.834Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a213d178cc16acb7bbff2d"
+  },
+  "name": "judge4",
+  "password": "judge4",
+  "role": {
+    "$oid": "61a1f8cccfe6bf9c90189297"
+  },
+  "category": "LITERATURE",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2021-11-27T11:17:37.288Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-27T11:17:37.288Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a2159f80131f363a578317"
+  },
+  "name": "judge5",
+  "password": "judge5",
+  "role": {
+    "$oid": "61a1f8cccfe6bf9c90189297"
+  },
+  "category": "ART",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2021-11-27T11:25:19.872Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-27T11:25:19.872Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a31a4c50ec053cdc7e5334"
+  },
+  "name": "judge6",
+  "password": "judge6",
+  "role": {
+    "$oid": "61a1f8cccfe6bf9c90189297"
+  },
+  "category": "ART",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2021-11-27T11:25:19.872Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-27T11:25:19.872Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a31a5b50ec053cdc7e5335"
+  },
+  "name": "judge7",
+  "password": "judge7",
+  "role": {
+    "$oid": "61a1f8cccfe6bf9c90189297"
+  },
+  "category": "ART",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2021-11-27T11:25:19.872Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-27T11:25:19.872Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a31a7850ec053cdc7e5336"
+  },
+  "name": "judge8",
+  "password": "judge8",
+  "role": {
+    "$oid": "61a1f8cccfe6bf9c90189297"
+  },
+  "category": "ART",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2021-11-27T11:25:19.872Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-27T11:25:19.872Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a31a9750ec053cdc7e5337"
+  },
+  "name": "judge9",
+  "password": "judge9",
+  "role": {
+    "$oid": "61a1f8cccfe6bf9c90189297"
+  },
+  "category": "LITERATURE",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2021-11-27T11:17:37.288Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-27T11:17:37.288Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a31aa550ec053cdc7e5338"
+  },
+  "name": "judge10",
+  "password": "judge10",
+  "role": {
+    "$oid": "61a1f8cccfe6bf9c90189297"
+  },
+  "category": "LITERATURE",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2021-11-27T11:17:37.288Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-27T11:17:37.288Z"
+  },
+  "__v": 0
+}]
